@@ -27,20 +27,15 @@ python game_of_life_simulation.py
 ## Code Structure
 The code consists of the following main parts:
 
-initial_state(N): Initializes the lattice with random states.
-
-checkflip(lattice, N, epsilon): Checks if the cell is alive or dead based on the rules of the Game of Life.
-
-step(lattice, N, nstep, epsilon): Simulates the Game of Life for a given number of steps.
-
-animate(i): Animates the simulation using Matplotlib's animation module
+* initial_state(N): Initializes the lattice with random states.
+* checkflip(lattice, N, epsilon): Checks if the cell is alive or dead based on the rules of the Game of Life.
+* step(lattice, N, nstep, epsilon): Simulates the Game of Life for a given number of steps.
+* animate(i): Animates the simulation using Matplotlib's animation module
 
 ## Parameters
-N: Number of cells in the lattice.
-
-epsilon: Noise parameter, determines the probability of random cell revival.
-
-nstep: Number of simulation steps.
+* N: Number of cells in the lattice.
+* epsilon: Noise parameter, determines the probability of random cell revival.
+* nstep: Number of simulation steps.
 
 ## Visualization
 The simulation is visualized using Matplotlib's animation capabilities. Each frame represents a step in the simulation, displaying the updated state of the lattice.
